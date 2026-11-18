@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "netlify dev --port 8889",
     "build": "node ./node_modules/vite/bin/vite.js build",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "node ./node_modules/drizzle-kit/bin.cjs generate"
   },
   "dependencies": {
     "@netlify/blobs": "^11.1.9",
